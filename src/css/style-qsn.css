@@ -95,21 +95,21 @@ nav li:first-child{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
+    padding: 45px 70px;
 }
 
 .content-1 .title {
     font-family: "Oxygen", sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     padding-bottom: 45px;
-    padding-top: 45px;
     color: #53af7a;
 }
 
 .content-1 .description {
     font-family: "Lancelot", sans-serif;
     font-size: 30px;
-    padding: 30px 20px;
+    padding: 30px 0;
+    padding-left: 20px;
     color: #28593d;
     border-left: 3px solid #f4abab;
 }
@@ -131,13 +131,12 @@ nav li:first-child{
 }
 
 .content-2 {
-    padding-left: 70px;
+    padding: 45px 70px;
 }
 
 .content-2 .title {
     font-family: "Oxygen", sans-serif;
-    font-size: 80px;
-    padding-bottom: 45px;
+    font-size: 70px;
     padding-top: 45px;
     color: #53af7a;
 }
@@ -223,21 +222,21 @@ footer .box-footer img {
     }
     .content-1 .title{
         font-size: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 30px 10px;
     }
     .content-1 .description{
         font-size: 20px;
+        padding: 0 20px;
+    }
+    #mid-wp {
+        width: 400px;
     }
     .content-2 .title{
         font-size: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
     .content-2 .description{
         font-size: 20px;
+        padding: 10px 20px;
     }
 }
 
@@ -248,6 +247,9 @@ footer .box-footer img {
     .content-master{
         display: flex;
         flex-direction: column;
+    }
+    .content-1 {
+        padding-top: 0;
     }
     .content-master-2{
         display: flex;
