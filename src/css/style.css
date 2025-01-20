@@ -92,8 +92,7 @@ nav li:first-child{
 }
 
 .content-2 {
-    padding: 70px 0;
-    padding-left: 70px;
+    padding: 70px 70px;
 }
 
 .content-2 .box-title-2 {
@@ -192,8 +191,7 @@ nav li:first-child{
 }
 
 .content-4 {
-    padding: 70px 0;
-    padding-left: 70px;
+    padding: 70px 70px;
 }
 
 .content-4 .title-4 {
@@ -463,8 +461,7 @@ footer .box-footer img {
         width:100%;
     }
     .content-2 {
-        padding: 40px 0;
-        padding-left: 70px;
+        padding: 40px 40px;
     }
     .content-2 .box-title-2 .title-2 {
         font-size: 30px;
@@ -508,8 +505,7 @@ footer .box-footer img {
         flex-direction: column;
     }
     .content-4 {
-        padding: 40px 0;
-        padding-left: 70px;
+        padding: 40px 40px;
     }
     .content-4 .title-4 {
         padding-bottom: 20px;
@@ -526,8 +522,7 @@ footer .box-footer img {
         flex-direction: column;
     }
     .content-5 {
-        padding: 40px 0;
-        padding-left: 70px;
+        padding: 40px 50px;
     }
     #mid-pic {
         max-width: 100%;
@@ -543,7 +538,7 @@ footer .box-footer img {
     }
     .content-6-5 {
         padding: 40px 0;
-        padding-left: 70px;
+        padding-left: 50px;
         border-right: 10px solid #53af7a;
         border-bottom: 10px solid #53af7a;
     }
@@ -573,7 +568,7 @@ footer .box-footer img {
         display: none;
     }
     .content-7 .quotation-2 {
-        
+
         text-align: end;
     }
 
