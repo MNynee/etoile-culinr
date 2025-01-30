@@ -10,6 +10,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*-----------------------------------MENU PRINCIPAL---------------------------------------*/
+
 nav {
     background-color: #53af7a;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -49,6 +51,8 @@ nav li:first-child{
     background-color: #28593d;
 }
 
+/*-----------------------------------MENU LATERAL---------------------------------------*/
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -84,6 +88,8 @@ nav li:first-child{
     font-style: normal;
     font-size: x-large;
 }
+
+/*-----------------------------------CONTENT PRINCIPAL---------------------------------------*/
 
 .content-master {
     display: flex;
@@ -149,6 +155,8 @@ nav li:first-child{
     border-left: 3px solid #f4abab;
 }
 
+/*-----------------------------------FOOTER---------------------------------------*/
+
 .interface {
     max-width: 1280px;
     margin: 0 auto;
@@ -212,6 +220,14 @@ footer .box-footer img {
 #current-page {
     color: #28593d;
 }
+
+/*-----------------------------------SCROLL REVEAL EFFECT---------------------------------------*/
+
+.effect-title, .effect-description, .mid-pic, .mid-pic-2 {
+    visibility: hidden;
+}
+
+/*-----------------------------------RESPONSIVE---------------------------------------*/
 
 @media(max-width: 800px){
     .hideOnMobile{
